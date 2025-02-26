@@ -152,11 +152,11 @@ app_license = "mit"
 # ---------------
 
 scheduler_events = {
-    "cron":{
-        "* * * * *":[
-            "pay_razor.pay_razor.tasks.cron"
-        ]
-    },
+    # "cron":{
+    #     "* * * * *":[
+    #         "pay_razor.pay_razor.tasks.cron"
+    #     ]
+    # },
 
 # 	"all": [
 # 		"pay_razor.tasks.all"
@@ -251,3 +251,6 @@ scheduler_events = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    "Lead",
+]
