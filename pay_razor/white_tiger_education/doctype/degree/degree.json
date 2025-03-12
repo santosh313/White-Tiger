@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-27 01:57:43.950806",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_y5sv",
+  "degree_name",
+  "branch"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_y5sv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "degree_name",
+   "fieldtype": "Data",
+   "label": "Degree Name"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-27 01:59:02.466086",
+ "modified_by": "Administrator",
+ "module": "White Tiger Education",
+ "name": "Degree",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
